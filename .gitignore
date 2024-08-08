@@ -1,0 +1,15 @@
+.vs/
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.dbmdl
+*.bak
+*.log
+
+bin/
+obj/
+
+Properties/PublishProfiles/

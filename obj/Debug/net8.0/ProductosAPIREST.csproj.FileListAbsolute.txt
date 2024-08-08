@@ -502,3 +502,4 @@ D:\ProyectoAPIREST\ProductosAPIREST\obj\Debug\net8.0\refint\ProductosAPIREST.dll
 D:\ProyectoAPIREST\ProductosAPIREST\obj\Debug\net8.0\ProductosAPIREST.pdb
 D:\ProyectoAPIREST\ProductosAPIREST\obj\Debug\net8.0\ProductosAPIREST.genruntimeconfig.cache
 D:\ProyectoAPIREST\ProductosAPIREST\obj\Debug\net8.0\ref\ProductosAPIREST.dll
+D:\ProyectoAPIREST\ProductosAPIREST\obj\Debug\net8.0\ProductosAPIREST.sourcelink.json

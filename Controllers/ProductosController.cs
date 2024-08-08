@@ -21,18 +21,23 @@ namespace ProductosAPIREST.Controllers
         [Route("listar")]
         public async Task<ActionResult<IEnumerable<Producto>>> ListarProductos()
         {
-
             var productos = await _context.Productos.ToListAsync();
+
+            if (productos == null)
+            {
+                return NotFound();
+            }
+
             return Ok(productos);
         }
 
         [HttpPost]
-        [Route("carrito")]
+        [Route("agregar")]
         public IActionResult CalcularCompra(Producto producto)
         {
             if (producto == null)
             {
-                return BadRequest("Producto no proporcionado.");
+                return BadRequest("No se ha proporciono ningún producto.");
             }
 
             var Subtotal = producto.precio * producto.cantidad;
@@ -42,6 +47,7 @@ namespace ProductosAPIREST.Controllers
             return Ok(new
             {
                 producto.nombre,
+                producto.precio,
                 producto.cantidad,
                 Subtotal,
                 IVA,
@@ -51,12 +57,12 @@ namespace ProductosAPIREST.Controllers
         }
 
         [HttpPost]
-        [Route("agregar")]
+        [Route("comprar")]
         public async Task<IActionResult> AgregarProducto(Producto producto)
         {
             if (producto == null)
             {
-                return BadRequest("Producto no proporcionado.");
+                return BadRequest("No se ha proporciono ningún producto.");
             }
 
             await _context.Productos.AddAsync(producto);
@@ -66,13 +72,13 @@ namespace ProductosAPIREST.Controllers
         }
 
         [HttpGet]
-        [Route("visualizarCompras")]
+        [Route("visualizar/{id}")]
         public async Task<IActionResult> CompraTotal(int id)
         {
             Producto producto = await _context.Productos.FindAsync(id);
             if (producto == null)
             {
-                return NotFound();
+                return NotFound("No existe un producto con ese identificador.");
             }
             var Subtotal = producto.cantidad * producto.precio;
             var IVA = Subtotal * 0.16m;
@@ -81,6 +87,7 @@ namespace ProductosAPIREST.Controllers
             return Ok(new
             {
                 producto.nombre,
+                producto.precio,
                 producto.cantidad,
                 Subtotal,
                 IVA,
@@ -89,13 +96,13 @@ namespace ProductosAPIREST.Controllers
         }
 
         [HttpPut]
-        [Route("editarProductos")]
+        [Route("editar/{id}")]
         public async Task<IActionResult> editarCompra(int id, Producto producto)
         {
             var productoExistente = await _context.Productos.FindAsync(id);
             if (productoExistente == null)
             {
-                return NotFound();
+                return NotFound("No existe un producto con ese identificador.");
             }
             productoExistente.nombre = producto.nombre;
             productoExistente.descripcion = producto.descripcion;
@@ -107,13 +114,13 @@ namespace ProductosAPIREST.Controllers
         }
 
         [HttpDelete]
-        [Route("eliminarCompra")]
+        [Route("eliminar/{id}")]
         public async Task<IActionResult> eliminarCompra(int id)
         {
             var productoeliminado = await _context.Productos.FindAsync(id);
             if(productoeliminado == null)
             {
-                return NotFound();
+                return NotFound("No existe un producto con ese identificador.");
             }
             _context.Productos.Remove(productoeliminado);
             await _context.SaveChangesAsync();

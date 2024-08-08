@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductosAPIREST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87fcd1891f683da776eed3938d3e346c6a445ee7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductosAPIREST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductosAPIREST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
