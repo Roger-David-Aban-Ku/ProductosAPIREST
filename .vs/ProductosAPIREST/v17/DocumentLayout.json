@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\ProyectoAPIREST\\ProductosAPIREST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|d:\\proyectoapirest\\productosapirest\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B74153-CFC3-4CB7-BE69-860DCCF81418}|ProductosAPIREST.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,23 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\ProyectoAPIREST\\ProductosAPIREST\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\ProyectoAPIREST\\ProductosAPIREST\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T03:59:21.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ProyectoAPIREST\\ProductosAPIREST\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -58,12 +42,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T01:05:11.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T01:05:11.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ProyectoAPIREST\\ProductosAPIREST\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -76,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ProyectoAPIREST\\ProductosAPIREST\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
@@ -84,8 +67,7 @@
               "RelativeToolTip": "Context\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T00:17:56.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T00:17:56.051Z"
             },
             {
               "$type": "Document",
@@ -97,18 +79,17 @@
               "RelativeToolTip": "Models\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T00:08:15.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T00:08:15.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "D:\\ProyectoAPIREST\\ProductosAPIREST\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
               "ToolTip": "D:\\ProyectoAPIREST\\ProductosAPIREST\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAIwCcAAABIAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAH4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T23:38:50.453Z",
               "EditorCaption": ""

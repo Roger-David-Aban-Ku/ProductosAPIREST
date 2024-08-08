@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.config",
     "\\Context",
     "\\Controllers",
-    "\\Models"
+    "\\Models",
+    "\\Properties"
   ],
-  "SelectedNode": "\\ProductosAPIREST.sln",
+  "SelectedNode": "\\.config\\dotnet-tools.json",
   "PreviewInSolutionExplorer": false
 }

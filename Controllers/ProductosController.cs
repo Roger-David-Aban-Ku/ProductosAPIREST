@@ -124,7 +124,7 @@ namespace ProductosAPIREST.Controllers
             }
             _context.Productos.Remove(productoeliminado);
             await _context.SaveChangesAsync();
-            return Ok(true);
+            return Ok($"Se elminó el produccto con id: {id}");
         }
     }
 }
